@@ -132,6 +132,12 @@ make test      # 13 tests
 
 Requires Python 3.11+. No API key, no network, no GPU.
 
+On a machine where `python3` is older, point setup at a newer interpreter:
+
+```
+make setup PYTHON=python3.13
+```
+
 One stage on its own:
 
 ```
