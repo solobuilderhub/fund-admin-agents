@@ -1,0 +1,118 @@
+{
+  "_source": "20_Distribution_Agreement_Extract.pdf",
+  "terms": {
+    "apportionment": {
+      "label": "Apportionment of proceeds among Members",
+      "value": "apportioned among the Members pro rata in accordance with their respective Capital Contributions in respect of such Portfolio Investment",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "lio Investment(s), such amount shall initially be apportioned among the Members pro rata in accordance with their respective Capital Contributions in respect of such Portfolio Investment. Amounts apportioned to the Investment Manager sh"
+    },
+    "tier_a": {
+      "label": "Tier A \u2014 return of Capital Contributions (incl. fee and expense contributions)",
+      "value": "Return of Capital Contributions . First, 100% to such Member",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "the following amounts and order of priority: (A) Return of Capital Contributions . First, 100% to such Member until such Member has received cumulative distrib"
+    },
+    "pref_rate": {
+      "label": "Tier B \u2014 Preferred Return rate",
+      "value": 0.06,
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "ion 6.2(b)(ii)(A) and Section 6.2(b)(ii)(C) below equal to 6% per annum, compounded annually, on Member\u2019s Capital Contributions to the Fund (i"
+    },
+    "pref_compounding": {
+      "label": "Tier B \u2014 compounding",
+      "value": "compounded annually",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "i)(A) and Section 6.2(b)(ii)(C) below equal to 6% per annum, compounded annually, on Member\u2019s Capital Contributions to the Fund (i"
+    },
+    "pref_start": {
+      "label": "Tier B \u2014 accrual start",
+      "value": "computed from the dates that such Capital Contributions were due (or, if actually made later, the date on which such Capital Contributions were actually made)",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "bution) under Section 6.2(b) made to such Member (computed from the dates that such Capital Contributions were due (or, if actually made later, the date on which such Capital Contributions were actually made) until the date that the Fund, in its sole discret"
+    },
+    "catch_up_pct": {
+      "label": "Tier C \u2014 Investment Manager catch-up to",
+      "value": 0.1,
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "t of Dissolution) (the \u201c Preferred Return \u201d); (C) Investment Manager Catch Up to 10% . Third, 100% of all remaining Disposition Procee"
+    },
+    "split_member_pct": {
+      "label": "Tier D \u2014 split to Members",
+      "value": 0.9,
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": ".2(b)(ii)(A) and Section 6.2(b)(ii)(B) below; and (D) 90%/10% . Thereafter, 90% of all remaining Disposition Pr"
+    },
+    "split_im_pct": {
+      "label": "Tier D \u2014 split to Investment Manager",
+      "value": 0.1,
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": ".2(b)(ii)(A) and Section 6.2(b)(ii)(B) below; and (D) 90%/10% . Thereafter, 90% of all remaining Disposition Pr"
+    },
+    "gains_cap_pct": {
+      "label": "Cap \u2014 incentive on Disposition Proceeds, % of net cumulative gains",
+      "value": 0.2,
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "eds that, as of any distribution or payment date, exceeds 20% of cumulative realized capital gains net of all cumulative realized capital losses and unrealized capital depreciation. SECTION 6.2(b)(ii) [Section 6.2(b)(ii) \u00b7 p.37] ("
+    },
+    "gains_cap_basis": {
+      "label": "Cap \u2014 basis",
+      "value": "cumulative realized capital gains net of all cumulative realized capital losses and unrealized capital depreciation",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "any distribution or payment date, exceeds 20% of cumulative realized capital gains net of all cumulative realized capital losses and unrealized capital depreciation. SECTION 6.2(b)(ii) [Section 6.2(b)(ii) \u00b7 p.37] ("
+    },
+    "proportion_cap": {
+      "label": "Cap \u2014 relative to proceeds distributed to Members (wording)",
+      "value": "In no event will the Investment Manager receive amounts of Pre-Exchange Listing Incentive Fees under clause (i)(C) and (i)(D) above in excess of the percentage of the Disposition Proceeds actually distributed to Members",
+      "section": "Section 6.2",
+      "page": 35,
+      "evidence": "Manager as a Pre-Exchange Listing Incentive Fee. In no event will the Investment Manager receive amounts of Pre-Exchange Listing Incentive Fees under clause (i)(C) and (i)(D) above in excess of the percentage of the Disposition Proceeds actually distributed to Members pursuant to clause (i)(B), (i)(C) and (i)(D) abov"
+    },
+    "current_waterfall": {
+      "label": "Current Proceeds \u2014 separate waterfall (no return of capital tier)",
+      "value": "Current Proceeds apportioned to Members shall be divided",
+      "section": "Section 6.2(b)(ii)",
+      "page": 37,
+      "evidence": "CTION 6.2(b)(ii) [Section 6.2(b)(ii) \u00b7 p.37] (ii) Current Proceeds apportioned to Members shall be divided between and distributed to Members, on the one ha"
+    },
+    "def_current": {
+      "label": "Definition \u2014 Current Proceeds",
+      "value": "Current Proceeds shall mean all proceeds from current returns on investments, including, but not limited to, interest income, fee income, prepayment fees, and exit fees, other than Disposition Proceeds, less Fund Expenses",
+      "section": "Definitions",
+      "page": 3,
+      "evidence": "cted. ARTICLE I \u2014 DEFINITIONS [Definitions \u00b7 p.3] Current Proceeds shall mean all proceeds from current returns on investments, including, but not limited to, interest income, fee income, prepayment fees, and exit fees, other than Disposition Proceeds, less Fund Expenses. Disposition Proceeds shall mean all amounts rece"
+    },
+    "def_disposition": {
+      "label": "Definition \u2014 Disposition Proceeds",
+      "value": "Disposition Proceeds shall mean all amounts received by the Fund upon the disposition of an investment, including full or partial repayment or amortization of principal (but excluding any Current Proceeds)",
+      "section": "Definitions",
+      "page": 3,
+      "evidence": "er than Disposition Proceeds, less Fund Expenses. Disposition Proceeds shall mean all amounts received by the Fund upon the disposition of an investment, including full or partial repayment or amortization of principal (but excluding any Current Proceeds). Dispute shall have the meaning set forth in Sect"
+    }
+  },
+  "checks": [
+    {
+      "check": "Tier D split sums to 100%",
+      "status": "PASS"
+    },
+    {
+      "check": "Catch-up target equals Investment Manager split (full catch-up)",
+      "status": "PASS"
+    }
+  ],
+  "missing": [],
+  "interpretation_flags": [
+    "The 'percentage of the Disposition Proceeds actually distributed to Members' limit does not state the percentage; not modelled \u2014 confirm with the Investment Manager."
+  ],
+  "status": "COMPLETE"
+}

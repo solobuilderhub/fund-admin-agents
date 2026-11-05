@@ -1,0 +1,79 @@
+{
+  "source": "01_Offer_Document_Fee_Extract.pdf",
+  "pages_read": 16,
+  "terms": {
+    "combined_fee_pa": {
+      "label": "Responsible entity + management fee (aggregate)",
+      "value": 0.0125,
+      "page": 24,
+      "extract_page": 1,
+      "evidence": "What fees will and the Investment Manager receive? HE \u201ceceives: 12 e A Responsible Entity Fee and a Management Fee together totalling 1.25% p.a. of NAV, and \u00a2 A Performance Fee of 20% of the Trust Outperformance, namely of the Trust Total Return in excess of the Hurdle Return (being 8% p."
+    },
+    "perf_fee_rate": {
+      "label": "Performance fee rate",
+      "value": 0.2,
+      "page": 24,
+      "extract_page": 1,
+      "evidence": "of NAV, and \u00a2 A Performance Fee of 20% of the Trust Outperformance, namely of the Trust Total Return in excess of the Hurdle Return (being 8% p."
+    },
+    "hurdle_pa": {
+      "label": "Hurdle return",
+      "value": 0.08,
+      "page": 24,
+      "extract_page": 1,
+      "evidence": "of NAV, and \u00a2 A Performance Fee of 20% of the Trust Outperformance, namely of the Trust Total Return in excess of the Hurdle Return (being 8% p.a."
+    },
+    "fees_paid_monthly_in_arrears": {
+      "label": "Management costs paid monthly in arrears",
+      "value": true,
+      "page": 117,
+      "extract_page": 5,
+      "evidence": "These fees are calculated and payable monthly in arrears from the Trust."
+    },
+    "gst_net_of_ritc": {
+      "label": "Fees quoted inclusive of GST net of RITC",
+      "value": true,
+      "page": 117,
+      "extract_page": 5,
+      "evidence": "The management costs are quoted inclusive of Goods and Services Tax (\u2018GST') and net of any reduced input tax credits (\u2018RITC') at the prescribed rates."
+    },
+    "hwm": {
+      "label": "High water mark applies",
+      "value": true,
+      "page": 118,
+      "extract_page": 6,
+      "evidence": ") and subject to the NAV being greater than the Trust's HWM."
+    },
+    "perf_fee_accrued_monthly": {
+      "label": "Performance fee accrued monthly",
+      "value": true,
+      "page": 118,
+      "extract_page": 6,
+      "evidence": "The Performance Fee is calculated and accrued monthly and payable \u2018oom the Trust each half-year period ending une or 31 December (however the first payment period ends 31 December 2019)."
+    },
+    "re_fee_pa": {
+      "label": "Responsible entity fee",
+      "value": 0.0005,
+      "page": 120,
+      "extract_page": 8,
+      "evidence": "RESPONSIBLE ENTITY AND MANAGEMENT FEE The Trust pays Investment Management Limited a responsible entity fee of 0.05% p.a."
+    },
+    "mgmt_fee_pa": {
+      "label": "Management fee",
+      "value": 0.012,
+      "page": 120,
+      "extract_page": 8,
+      "evidence": "(\u201cResponsible Entity Fee\u201d) and poy Cop! Limited a management fee of 1.20% p.a."
+    }
+  },
+  "internal_checks": [
+    {
+      "check": "RE fee + management fee = aggregate fee",
+      "expected": 0.0125,
+      "actual": 0.0125,
+      "status": "PASS"
+    }
+  ],
+  "missing": [],
+  "status": "COMPLETE"
+}

@@ -1,0 +1,98 @@
+{
+  "_source": "10_Drawdown_Agreement_Extract.pdf",
+  "terms": {
+    "notice_business_days": {
+      "label": "Funding Notice period (Business Days before Drawdown Due Date)",
+      "value": 10,
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "pital Contributions to be made to the Fund (a \u201c Drawdown \u201d) no later than ten (10) Business Days prior to the date of such Drawdown (the \u201c Drawdown Due Date \u201d). The Funding Notice for the ini"
+    },
+    "initial_notice_business_days": {
+      "label": "Initial Drawdown notice period (Business Days)",
+      "value": 5,
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "own (the \u201c Drawdown Due Date \u201d). The Funding Notice for the initial Drawdown with respect to any Member (both of its initial Capital Commitment and of any aggregate increased Capital Commitment following a Subsequent Closing) shall be provided by the Investment Manager to such Member at least five (5) Business Days prior to the date of such initial Drawdown. (ii) Each Funding Not"
+    },
+    "key_portfolio_investment": {
+      "label": "Allocation key \u2014 Portfolio Investments",
+      "value": "Remaining Commitment Percentage",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "\u2019s Capital Contribution shall be determined as follows: (i) in respect of any Portfolio Investment, such Capital Contribution shall be equal to such Member\u2019s Remaining Commitment Percentage of the aggregate amount required for the Fund to make such"
+    },
+    "key_management_fees": {
+      "label": "Allocation key \u2014 Management Fees",
+      "value": "Invested Capital Percentage",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "quired for the Fund to make such Portfolio Investment; (ii) in respect of Pre-Exchange Listing Management Fees (subject to Section 4.1(f)(iii)), such Capital Contribution shall be equal to such Member\u2019s Invested Capital Percentage of the aggregate amount required by the Fund to pay such Pr"
+    },
+    "key_fund_expenses": {
+      "label": "Allocation key \u2014 Fund Expenses not attributable to a Portfolio Investment",
+      "value": "Capital Commitment Percentage",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "io Investment; and (v) in respect of Fund Expenses that are not attributable to a particular Portfolio Investment and in respect of Organizational Expenses, such Capital Contribution shall be equal to such Member\u2019s Capital Commitment Percentage of the aggregate amount required by the Fund to pay such Fu"
+    },
+    "cap_remaining_commitment": {
+      "label": "Cap \u2014 no Member funds above its Remaining Capital Commitment",
+      "value": "up to but not exceeding the amount of its Remaining Capital Commitment",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "ach Member agrees to make Capital Contributions to the Fund up to but not exceeding the amount of its Remaining Capital Commitment, in any amount on an as-needed basis, as determined by the"
+    },
+    "business_day": {
+      "label": "Business Day definition",
+      "value": "any day on which both (a) the New York Stock Exchange is open and (b) the U.S. Federal Reserve Banks are open",
+      "section": "Definitions",
+      "page": 2,
+      "evidence": "Names redacted. ARTICLE I \u2014 DEFINITIONS [Definitions \u00b7 p.2] Business Day shall mean any day on which both (a) the New York Stock Exchange is open and (b) the U.S. Federal Reserve Banks are open. The Investment Manager may designate additional Business D"
+    },
+    "default_cure_business_days": {
+      "label": "Default \u2014 cure period after written notice (Business Days)",
+      "value": 10,
+      "section": "Section 5.2",
+      "page": 30,
+      "evidence": "amount required to be funded by such Member hereunder, and such failure continues for ten Business Days after receipt of written notice thereof from the Managing Members (a \u201c Default \u201d), then suc"
+    },
+    "amended_notice_business_days": {
+      "label": "Defaulted Amount \u2014 amended notice funding period (Business Days)",
+      "value": 5,
+      "section": "Section 5.2",
+      "page": 30,
+      "evidence": "efaulting Member failed to make (the \u201c Defaulted Amount \u201d). Payment of such additional Capital Contributions shall be made within five Business Days after such amended Funding Notice has been given. For the a"
+    },
+    "default_rate": {
+      "label": "Default Rate",
+      "value": "the lesser of (a) the Prime Rate plus 4% per annum and (b) the maximum annual interest rate permitted by law",
+      "section": "Definitions",
+      "page": 2,
+      "evidence": "Fee shall have the meaning set forth in Section 6.2(c)(ii). Default Rate shall mean the lesser of (a) the Prime Rate plus 4% per annum and (b) the maximum annual interest rate permitted by law. Invested Capital shall mean the sum of (i) Capital Contrib"
+    },
+    "unit_issue_price": {
+      "label": "Unit issue price on Drawdown",
+      "value": "Units will be issued at a per-Unit price equal to the net asset value (\u201c NAV \u201d) per Unit as of the close of the last quarter preceding the funding date",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "Member contributed amounts prior to the Drawdown Due Date. Units will be issued at a per-Unit price equal to the net asset value (\u201c NAV \u201d) per Unit as of the close of the last quarter preceding the funding date, subject to any adjustments. Any adjustments would take int"
+    },
+    "equalisation": {
+      "label": "Subsequent Closing equalisation",
+      "value": "required to pay to the Fund in connection with such closing an amount equal to their proportionate share of all funded Commitments made prior to their admission",
+      "section": "Section 5.3(c)",
+      "page": 33,
+      "evidence": "ses incurred prior to their admission. Such Members will be required to pay to the Fund in connection with such closing an amount equal to their proportionate share of all funded Commitments made prior to their admission (including amounts called to fund Portfolio Investments, Or"
+    },
+    "notice_contents": {
+      "label": "Funding Notice must state",
+      "value": "the date of the Drawdown",
+      "section": "Section 5.1",
+      "page": 28,
+      "evidence": "iness Days prior to the date of such initial Drawdown. (ii) Each Funding Notice shall specify: (A) the date of the Drawdown; (B) the bank account of the Fund to which Capital Contribu"
+    }
+  },
+  "missing": [],
+  "status": "COMPLETE"
+}
