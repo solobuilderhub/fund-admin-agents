@@ -1,0 +1,870 @@
+{
+  "source": "02_Annual_Financial_Report_FY2026.pdf",
+  "checks": [
+    {
+      "id": "T01",
+      "area": "Profit or loss",
+      "check": "FY26 income lines cast to total net investment income",
+      "expected": 11900625.0,
+      "actual": 11900625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T02",
+      "area": "Profit or loss",
+      "check": "FY26 expense lines cast to total operating expenses",
+      "expected": -1067000.0,
+      "actual": -1067000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T03",
+      "area": "Profit or loss",
+      "check": "FY26 income less expenses = profit",
+      "expected": 10833625.0,
+      "actual": 10833625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T04",
+      "area": "Financial position",
+      "check": "FY26 assets cast",
+      "expected": 66007750.0,
+      "actual": 66007750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T05",
+      "area": "Financial position",
+      "check": "FY26 liabilities cast",
+      "expected": 1491250.0,
+      "actual": 1491250.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T06",
+      "area": "Financial position",
+      "check": "FY26 assets less liabilities = unitholders' equity (NAV)",
+      "expected": 64516500.0,
+      "actual": 64516500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T07",
+      "area": "Financial position",
+      "check": "FY26 issued units + retained earnings = equity",
+      "expected": 64516500.0,
+      "actual": 64516500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T08",
+      "area": "Changes in equity",
+      "check": "FY26 equity rollforward",
+      "expected": 64516500.0,
+      "actual": 64516500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T09",
+      "area": "Changes in equity",
+      "check": "FY26 closing equity agrees to statement of financial position",
+      "expected": 64516500.0,
+      "actual": 64516500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T10",
+      "area": "Changes in equity",
+      "check": "FY26 profit agrees to statement of profit or loss",
+      "expected": 10833625.0,
+      "actual": 10833625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T11",
+      "area": "Cash flows",
+      "check": "FY26 operating cash flows cast",
+      "expected": 1426125.0,
+      "actual": 1426125.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T12",
+      "area": "Cash flows",
+      "check": "FY26 financing cash flows cast",
+      "expected": -7316000.0,
+      "actual": -7316000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T13",
+      "area": "Cash flows",
+      "check": "FY26 operating + financing = net change in cash",
+      "expected": -5889875.0,
+      "actual": -5889875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T14",
+      "area": "Cash flows",
+      "check": "FY26 opening cash + net change + FX = closing cash",
+      "expected": 403750.0,
+      "actual": 403750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T15",
+      "area": "Cash flows",
+      "check": "FY26 closing cash agrees to statement of financial position",
+      "expected": 403750.0,
+      "actual": 403750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T16",
+      "area": "Notes",
+      "check": "FY26 receivables note agrees to statement of financial position",
+      "expected": 15875.0,
+      "actual": 15875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.6",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T17",
+      "area": "Notes",
+      "check": "FY26 payables note agrees to statement of financial position",
+      "expected": 154875.0,
+      "actual": 154875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.6",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T18",
+      "area": "Units",
+      "check": "FY26 units on issue rollforward (count)",
+      "expected": 26691000.0,
+      "actual": 26691000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T19",
+      "area": "Units",
+      "check": "FY26 issued units rollforward (value)",
+      "expected": 43043750.0,
+      "actual": 43043750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T20",
+      "area": "Units",
+      "check": "FY26 issued units (value) agree to statement of financial position",
+      "expected": 43043750.0,
+      "actual": 43043750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T21",
+      "area": "Units",
+      "check": "FY26 DRP in equity statement agrees to units note",
+      "expected": 223625.0,
+      "actual": 223625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T22",
+      "area": "Units",
+      "check": "FY26 buyback: equity statement = cash flow statement",
+      "expected": -1797375.0,
+      "actual": -1797375.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T23",
+      "area": "Distributions",
+      "check": "FY26 distributions note agrees to equity statement",
+      "expected": 2218000.0,
+      "actual": 2218000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T24",
+      "area": "Distributions",
+      "check": "FY26 distribution payable = June distribution less June DRP",
+      "expected": 975500.0,
+      "actual": 975500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T25",
+      "area": "Distributions",
+      "check": "FY26 DRP (equity) = DRP December + DRP June",
+      "expected": 223625.0,
+      "actual": 223625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T26",
+      "area": "Fees",
+      "check": "FY26 fee note expense agrees to profit or loss",
+      "expected": 706000.0,
+      "actual": 705949.13,
+      "difference": -50.87,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T27",
+      "area": "Fees",
+      "check": "FY26 fee note payable agrees to payables note",
+      "expected": 67000.0,
+      "actual": 66964.63,
+      "difference": -35.37,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.6"
+      ]
+    },
+    {
+      "id": "T28",
+      "area": "Fees",
+      "check": "FY26 carried interest fee payable agrees to other expenses payable",
+      "expected": 87125.0,
+      "actual": 87186.38,
+      "difference": 61.38,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.6"
+      ]
+    },
+    {
+      "id": "T29",
+      "area": "Profit or loss",
+      "check": "FY25 income lines cast to total net investment income",
+      "expected": 7176375.0,
+      "actual": 7176375.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T30",
+      "area": "Profit or loss",
+      "check": "FY25 expense lines cast to total operating expenses",
+      "expected": -924500.0,
+      "actual": -924500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T31",
+      "area": "Profit or loss",
+      "check": "FY25 income less expenses = profit",
+      "expected": 6251875.0,
+      "actual": 6251875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T32",
+      "area": "Financial position",
+      "check": "FY25 assets cast",
+      "expected": 62562125.0,
+      "actual": 62562125.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T33",
+      "area": "Financial position",
+      "check": "FY25 liabilities cast",
+      "expected": 5087500.0,
+      "actual": 5087500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T34",
+      "area": "Financial position",
+      "check": "FY25 assets less liabilities = unitholders' equity (NAV)",
+      "expected": 57474625.0,
+      "actual": 57474625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T35",
+      "area": "Financial position",
+      "check": "FY25 issued units + retained earnings = equity",
+      "expected": 57474625.0,
+      "actual": 57474625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T36",
+      "area": "Changes in equity",
+      "check": "FY25 equity rollforward",
+      "expected": 57474625.0,
+      "actual": 57474625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T37",
+      "area": "Changes in equity",
+      "check": "FY25 closing equity agrees to statement of financial position",
+      "expected": 57474625.0,
+      "actual": 57474625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T38",
+      "area": "Changes in equity",
+      "check": "FY25 profit agrees to statement of profit or loss",
+      "expected": 6251875.0,
+      "actual": 6251875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T39",
+      "area": "Cash flows",
+      "check": "FY25 operating cash flows cast",
+      "expected": 6262000.0,
+      "actual": 6262000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T40",
+      "area": "Cash flows",
+      "check": "FY25 financing cash flows cast",
+      "expected": -1316500.0,
+      "actual": -1316500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T41",
+      "area": "Cash flows",
+      "check": "FY25 operating + financing = net change in cash",
+      "expected": 4945500.0,
+      "actual": 4945500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T42",
+      "area": "Cash flows",
+      "check": "FY25 opening cash + net change + FX = closing cash",
+      "expected": 6279375.0,
+      "actual": 6279375.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T43",
+      "area": "Cash flows",
+      "check": "FY25 closing cash agrees to statement of financial position",
+      "expected": 6279375.0,
+      "actual": 6279375.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T44",
+      "area": "Notes",
+      "check": "FY25 receivables note agrees to statement of financial position",
+      "expected": 29625.0,
+      "actual": 29625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.6",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T45",
+      "area": "Notes",
+      "check": "FY25 payables note agrees to statement of financial position",
+      "expected": 226875.0,
+      "actual": 226875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.6",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T46",
+      "area": "Units",
+      "check": "FY25 units on issue rollforward (count)",
+      "expected": 27649100.0,
+      "actual": 27649100.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T47",
+      "area": "Units",
+      "check": "FY25 issued units rollforward (value)",
+      "expected": 44617500.0,
+      "actual": 44617500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T48",
+      "area": "Units",
+      "check": "FY25 issued units (value) agree to statement of financial position",
+      "expected": 44617500.0,
+      "actual": 44617500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T49",
+      "area": "Units",
+      "check": "FY25 DRP in equity statement agrees to units note",
+      "expected": 240500.0,
+      "actual": 240500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T50",
+      "area": "Units",
+      "check": "FY25 buyback: equity statement = cash flow statement",
+      "expected": -364000.0,
+      "actual": -364000.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.5"
+      ]
+    },
+    {
+      "id": "T51",
+      "area": "Distributions",
+      "check": "FY25 distributions note agrees to equity statement",
+      "expected": 2257125.0,
+      "actual": 2257125.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T52",
+      "area": "Distributions",
+      "check": "FY25 distribution payable = June distribution less June DRP",
+      "expected": 1045875.0,
+      "actual": 1045875.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T53",
+      "area": "Distributions",
+      "check": "FY25 DRP (equity) = DRP December + DRP June",
+      "expected": 240500.0,
+      "actual": 240500.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T54",
+      "area": "Fees",
+      "check": "FY25 fee note expense agrees to profit or loss",
+      "expected": 708125.0,
+      "actual": 708081.5,
+      "difference": -43.5,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.2"
+      ]
+    },
+    {
+      "id": "T55",
+      "area": "Fees",
+      "check": "FY25 fee note payable agrees to payables note",
+      "expected": 59000.0,
+      "actual": 59038.0,
+      "difference": 38.0,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.6"
+      ]
+    },
+    {
+      "id": "T56",
+      "area": "Fees",
+      "check": "FY25 carried interest fee payable agrees to other expenses payable",
+      "expected": 107875.0,
+      "actual": 107822.75,
+      "difference": -52.25,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.8",
+        "02_Annual_Financial_Report_FY2026.pdf p.6"
+      ]
+    },
+    {
+      "id": "T57",
+      "area": "Changes in equity",
+      "check": "FY26 opening equity = FY25 closing equity",
+      "expected": 57474625.0,
+      "actual": 57474625.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.4",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T58",
+      "area": "Retained earnings",
+      "check": "FY25 retained earnings + FY26 profit - distributions = FY26 retained earnings",
+      "expected": 21472750.0,
+      "actual": 21472750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.3",
+        "02_Annual_Financial_Report_FY2026.pdf p.2",
+        "02_Annual_Financial_Report_FY2026.pdf p.4"
+      ]
+    },
+    {
+      "id": "T59",
+      "area": "Cash flows",
+      "check": "FY26 distributions paid in cash = opening payable + (December distribution - December DRP)",
+      "expected": 2064750.0,
+      "actual": 2064750.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "02_Annual_Financial_Report_FY2026.pdf p.5",
+        "02_Annual_Financial_Report_FY2026.pdf p.7",
+        "02_Annual_Financial_Report_FY2026.pdf p.3"
+      ]
+    },
+    {
+      "id": "T60",
+      "area": "Half-year",
+      "check": "HY: assets less liabilities = equity",
+      "expected": 58808250.0,
+      "actual": 58808250.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.3"
+      ]
+    },
+    {
+      "id": "T61",
+      "area": "Half-year",
+      "check": "HY: retained earnings = FY25 RE + H1 profit - December distribution",
+      "expected": 15580125.0,
+      "actual": 15580125.0,
+      "difference": 0.0,
+      "tolerance": 0.0,
+      "status": "TIES",
+      "refs": [
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.3",
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.2",
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T62",
+      "area": "Half-year",
+      "check": "HY: distribution payable = December distribution less December DRP",
+      "expected": 1018750.0,
+      "actual": 1018875.0,
+      "difference": 125.0,
+      "tolerance": 125.0,
+      "status": "TIES (rounding)",
+      "refs": [
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.3",
+        "02_Annual_Financial_Report_FY2026.pdf p.7"
+      ]
+    },
+    {
+      "id": "T63",
+      "area": "Half-year",
+      "check": "HY fee note expense agrees to half-year profit or loss",
+      "expected": 356625.0,
+      "actual": 356601.63,
+      "difference": -23.37,
+      "tolerance": 62.5,
+      "status": "TIES (rounding)",
+      "refs": [
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.4",
+        "03_Half_Year_Financial_Report_Dec2025.pdf p.2"
+      ]
+    }
+  ],
+  "summary": {
+    "TIES": 55,
+    "TIES (rounding)": 8,
+    "BREAK": 0
+  },
+  "audited_nav_per_unit": {
+    "FY26": 2.417163,
+    "FY25": 2.078716
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "period": "June 2026 NAV cycle",
+  "generated": "05 Nov 2026 15:38",
+  "status": "DRAFT \u2014 NOT RELEASED",
+  "reviewer": null,
+  "nav_tests": [
+    {
+      "id": "B1",
+      "test": "Audited NAV per unit (30 Jun) vs published unaudited ex-distribution NAV",
+      "ours": 2.4172,
+      "theirs": 2.4008,
+      "difference": 0.0164,
+      "difference_pct": 0.0068,
+      "value_impact": 436747.2,
+      "kind": "nav",
+      "status": "EXCEEDS RG 94 0.30%",
+      "explanation": "Published month-end NAV is an unaudited estimate; audited NAV is higher. Typical cause for a fund of private equity funds: underlying manager valuations received after the monthly report and booked in the year-end accounts. Not confirmable from the data room.",
+      "action": "Obtain the administrator's bridge from the published June NAV to audited NAV, with each post-report valuation adjustment and its source statement. Confirm whether any unit transactions (DRP, buyback) were priced off the published NAV."
+    },
+    {
+      "id": "B2",
+      "test": "Cum NAV less ex NAV = declared final distribution per unit",
+      "ours": 0.04075,
+      "theirs": 0.0407,
+      "difference": -5e-05,
+      "difference_pct": null,
+      "value_impact": null,
+      "kind": "cpu",
+      "status": "TIES (4dp rounding)",
+      "explanation": "Published NAVs are rounded to 4 decimal places.",
+      "action": "None."
+    },
+    {
+      "id": "B3",
+      "test": "June distribution / cents per unit = units on issue at 30 June",
+      "ours": 26631902,
+      "theirs": 26691000.0,
+      "difference": -59098,
+      "difference_pct": -0.0022,
+      "value_impact": -2408.25,
+      "kind": "units",
+      "status": "QUERY",
+      "explanation": "The June distribution implies fewer units than were on issue at 30 June. Candidate causes: record date before 30 June, or buyback units cancelled after the record date.",
+      "action": "Obtain the distribution record date and the registry unit count at that date."
+    },
+    {
+      "id": "B4",
+      "test": "2026-07 one-month return recomputes from published NAVs",
+      "ours": -0.1034,
+      "theirs": -0.10300000000000001,
+      "difference": -0.0004,
+      "difference_pct": null,
+      "value_impact": null,
+      "kind": "pct",
+      "status": "TIES (1dp rounding)",
+      "explanation": "NAV 2.1525 / prior NAV 2.4008 - 1 (distribution-adjusted where ex NAV published).",
+      "action": "None."
+    },
+    {
+      "id": "B4",
+      "test": "2026-08 one-month return recomputes from published NAVs",
+      "ours": 0.0432,
+      "theirs": 0.043,
+      "difference": 0.0002,
+      "difference_pct": null,
+      "value_impact": null,
+      "kind": "pct",
+      "status": "TIES (1dp rounding)",
+      "explanation": "NAV 2.2454 / prior NAV 2.1525 - 1 (distribution-adjusted where ex NAV published).",
+      "action": "None."
+    },
+    {
+      "id": "B5",
+      "test": "2026-06 one-month return",
+      "ours": null,
+      "theirs": 0.2,
+      "difference": null,
+      "difference_pct": null,
+      "value_impact": null,
+      "kind": "pct",
+      "status": "NOT TESTABLE",
+      "explanation": "Prior month NAV not in the data room.",
+      "action": "Request the May NAV report."
+    }
+  ],
+  "open_items": [
+    {
+      "id": "O4",
+      "priority": "High",
+      "item": "June NAV bridge: published unaudited NAV to audited NAV (+0.68%, 436,747); confirm impact on any unit transactions priced off it."
+    },
+    {
+      "id": "O2",
+      "item": "Request the high water mark schedule: HWM per unit, last performance fee payment period, and capital-flow adjustments since. Confirms whether the nil performance fee is correct (indicative exposure if not binding: 1,411,652).",
+      "priority": "High"
+    },
+    {
+      "id": "O5",
+      "priority": "Medium",
+      "item": "Distribution units: implied 26,631,902 vs 26,691,000 on issue at 30 June. Obtain record date and registry count."
+    },
+    {
+      "id": "O3",
+      "item": "Obtain the secondaries carried interest calculation at 31 Dec 2025 and 30 Jun 2026 to explain the H2 reversal.",
+      "priority": "Medium"
+    },
+    {
+      "id": "O6",
+      "priority": "Low",
+      "item": "Request the prior-month (May) NAV report to test the June return."
+    },
+    {
+      "id": "O1",
+      "item": "Request the monthly management fee calculation schedule (fee base by month) to replace interpolated NAVs in F1/F2.",
+      "priority": "Low"
+    }
+  ],
+  "tieout_summary": {
+    "TIES": 55,
+    "TIES (rounding)": 8,
+    "BREAK": 0
+  },
+  "fee_tests": [
+    {
+      "id": "F1",
+      "test": "Management costs H1 (Jul-Dec 2025)",
+      "recomputed": 365300.12,
+      "reported": 356601.63,
+      "variance": -8698.49,
+      "variance_pct": -0.0238,
+      "status": "EXPLAINED",
+      "method": "1.25% p.a. / 12 x month-end NAV before distributions; NAV path per 'NAV path' sheet",
+      "note": "Estimate: intra-period monthly NAVs partly interpolated. Close fully with the administrator's monthly fee schedule."
+    },
+    {
+      "id": "F2",
+      "test": "Management costs H2 (Jan-Jun 2026)",
+      "recomputed": 347484.7,
+      "reported": 349347.5,
+      "variance": 1862.8,
+      "variance_pct": 0.0054,
+      "status": "EXPLAINED",
+      "method": "1.25% p.a. / 12 x month-end NAV before distributions; NAV path per 'NAV path' sheet",
+      "note": "Estimate: intra-period monthly NAVs partly interpolated. Close fully with the administrator's monthly fee schedule."
+    },
+    {
+      "id": "F3",
+      "test": "Year-end fee payable = June fee (monthly in arrears)",
+      "recomputed": 67881.33,
+      "reported": 66964.63,
+      "variance": -916.7,
+      "variance_pct": -0.0135,
+      "status": "EXPLAINED",
+      "method": "June fee on published June cum NAV x units",
+      "note": "Payable implies a June fee base of 64,286,045 vs published cum NAV x units of 65,166,076."
+    },
+    {
+      "id": "F4",
+      "test": "Performance fee \u2014 hurdle test",
+      "recomputed": 1411651.73,
+      "reported": 0.0,
+      "variance": -1411651.73,
+      "variance_pct": null,
+      "status": "OPEN \u2014 HWM REQUIRED",
+      "method": "Total return per unit incl. distributions 20.28% vs hurdle 8%; indicative fee = 20% x excess x opening NAV if the HWM is not binding",
+      "note": "Nil accrual is correct only if NAV per unit remains below the high water mark. The HWM and last payment period are not disclosed in the accounts."
+    },
+    {
+      "id": "F5",
+      "test": "Secondaries mgmt fee & carried interest \u2014 H2 movement",
+      "recomputed": null,
+      "reported": -5250.0,
+      "variance": -49250.0,
+      "variance_pct": null,
+      "status": "QUERY",
+      "method": "FY expense -5,250 less H1 expense 44,000 = H2 -49,250",
+      "note": "H2 shows a net reversal of the carried interest accrual while the fund returned strongly. Ask the manager for the secondaries carry calculation at 31 Dec and 30 Jun."
+    }
+  ],
+  "headline": {
+    "audited_nav_per_unit": 2.4172,
+    "published_nav_ex": 2.4008,
+    "nav_difference_pct": 0.0068,
+    "rg94_threshold": 0.003,
+    "tieout_checks": 63,
+    "tieout_breaks": 0
+  }
+}

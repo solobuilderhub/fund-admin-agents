@@ -1,0 +1,184 @@
+{
+  "terms_used": {
+    "combined_fee_pa": 0.0125,
+    "perf_fee_rate": 0.2,
+    "hurdle_pa": 0.08
+  },
+  "tests": [
+    {
+      "id": "F1",
+      "test": "Management costs H1 (Jul-Dec 2025)",
+      "recomputed": 365300.12,
+      "reported": 356601.63,
+      "variance": -8698.49,
+      "variance_pct": -0.0238,
+      "status": "EXPLAINED",
+      "method": "1.25% p.a. / 12 x month-end NAV before distributions; NAV path per 'NAV path' sheet",
+      "note": "Estimate: intra-period monthly NAVs partly interpolated. Close fully with the administrator's monthly fee schedule."
+    },
+    {
+      "id": "F2",
+      "test": "Management costs H2 (Jan-Jun 2026)",
+      "recomputed": 347484.7,
+      "reported": 349347.5,
+      "variance": 1862.8,
+      "variance_pct": 0.0054,
+      "status": "EXPLAINED",
+      "method": "1.25% p.a. / 12 x month-end NAV before distributions; NAV path per 'NAV path' sheet",
+      "note": "Estimate: intra-period monthly NAVs partly interpolated. Close fully with the administrator's monthly fee schedule."
+    },
+    {
+      "id": "F3",
+      "test": "Year-end fee payable = June fee (monthly in arrears)",
+      "recomputed": 67881.33,
+      "reported": 66964.63,
+      "variance": -916.7,
+      "variance_pct": -0.0135,
+      "status": "EXPLAINED",
+      "method": "June fee on published June cum NAV x units",
+      "note": "Payable implies a June fee base of 64,286,045 vs published cum NAV x units of 65,166,076."
+    },
+    {
+      "id": "F4",
+      "test": "Performance fee \u2014 hurdle test",
+      "recomputed": 1411651.73,
+      "reported": 0.0,
+      "variance": -1411651.73,
+      "variance_pct": null,
+      "status": "OPEN \u2014 HWM REQUIRED",
+      "method": "Total return per unit incl. distributions 20.28% vs hurdle 8%; indicative fee = 20% x excess x opening NAV if the HWM is not binding",
+      "note": "Nil accrual is correct only if NAV per unit remains below the high water mark. The HWM and last payment period are not disclosed in the accounts."
+    },
+    {
+      "id": "F5",
+      "test": "Secondaries mgmt fee & carried interest \u2014 H2 movement",
+      "recomputed": null,
+      "reported": -5250.0,
+      "variance": -49250.0,
+      "variance_pct": null,
+      "status": "QUERY",
+      "method": "FY expense -5,250 less H1 expense 44,000 = H2 -49,250",
+      "note": "H2 shows a net reversal of the carried interest accrual while the fund returned strongly. Ask the manager for the secondaries carry calculation at 31 Dec and 30 Jun."
+    }
+  ],
+  "nav_path": [
+    {
+      "month": "Jul-25",
+      "nav_per_unit": 2.093,
+      "units": 27569258,
+      "fee_base": 57702600.21,
+      "fee": 60106.88,
+      "source": "interpolated"
+    },
+    {
+      "month": "Aug-25",
+      "nav_per_unit": 2.1073,
+      "units": 27489417,
+      "fee_base": 57928293.67,
+      "fee": 60341.97,
+      "source": "interpolated"
+    },
+    {
+      "month": "Sep-25",
+      "nav_per_unit": 2.1216,
+      "units": 27409575,
+      "fee_base": 58151705.38,
+      "fee": 60574.69,
+      "source": "interpolated"
+    },
+    {
+      "month": "Oct-25",
+      "nav_per_unit": 2.1359,
+      "units": 27329733,
+      "fee_base": 58372835.34,
+      "fee": 60805.04,
+      "source": "interpolated"
+    },
+    {
+      "month": "Nov-25",
+      "nav_per_unit": 2.1502,
+      "units": 27249892,
+      "fee_base": 58591683.54,
+      "fee": 61033.0,
+      "source": "interpolated"
+    },
+    {
+      "month": "Dec-25",
+      "nav_per_unit": 2.1645,
+      "units": 27170050,
+      "fee_base": 59941000.0,
+      "fee": 62438.54,
+      "source": "half-year accounts"
+    },
+    {
+      "month": "Jan-26",
+      "nav_per_unit": 1.9525,
+      "units": 27090208,
+      "fee_base": 52893631.77,
+      "fee": 55097.53,
+      "source": "published (half-year report)"
+    },
+    {
+      "month": "Feb-26",
+      "nav_per_unit": 1.973,
+      "units": 27010367,
+      "fee_base": 53292016.15,
+      "fee": 55512.52,
+      "source": "interpolated"
+    },
+    {
+      "month": "Mar-26",
+      "nav_per_unit": 1.9935,
+      "units": 26930525,
+      "fee_base": 53687123.69,
+      "fee": 55924.09,
+      "source": "interpolated"
+    },
+    {
+      "month": "Apr-26",
+      "nav_per_unit": 2.0141,
+      "units": 26850683,
+      "fee_base": 54078954.4,
+      "fee": 56332.24,
+      "source": "interpolated"
+    },
+    {
+      "month": "May-26",
+      "nav_per_unit": 2.0346,
+      "units": 26770842,
+      "fee_base": 54467508.27,
+      "fee": 56736.99,
+      "source": "derived: Jun cum NAV / (1 + Jun return)"
+    },
+    {
+      "month": "Jun-26",
+      "nav_per_unit": 2.4415,
+      "units": 26691000,
+      "fee_base": 65166076.5,
+      "fee": 67881.33,
+      "source": "published monthly report (cum)"
+    }
+  ],
+  "open_items": [
+    {
+      "id": "O1",
+      "item": "Request the monthly management fee calculation schedule (fee base by month) to replace interpolated NAVs in F1/F2.",
+      "priority": "Low"
+    },
+    {
+      "id": "O2",
+      "item": "Request the high water mark schedule: HWM per unit, last performance fee payment period, and capital-flow adjustments since. Confirms whether the nil performance fee is correct (indicative exposure if not binding: 1,411,652).",
+      "priority": "High"
+    },
+    {
+      "id": "O3",
+      "item": "Obtain the secondaries carried interest calculation at 31 Dec 2025 and 30 Jun 2026 to explain the H2 reversal.",
+      "priority": "Medium"
+    }
+  ],
+  "total_return_fy26": 0.2028,
+  "audited_nav_per_unit": {
+    "FY25": 2.078716,
+    "FY26": 2.417163
+  }
+}
