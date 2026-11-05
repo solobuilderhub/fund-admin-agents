@@ -1,0 +1,9 @@
+# virtualenv and build artefacts
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+_build/
+
+# OS noise
+.DS_Store

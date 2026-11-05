@@ -1,0 +1,11 @@
+{
+  "definition": "A Business Day is a day on which BOTH the New York Stock Exchange is open AND the U.S. Federal Reserve Banks are open (weekends excluded). Verify these lists each year against the NYSE and Federal Reserve published holiday schedules.",
+  "nyse_closed": ["2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25"],
+  "fed_closed": ["2026-01-01", "2026-01-19", "2026-02-16", "2026-05-25", "2026-06-19", "2026-09-07", "2026-10-12", "2026-11-11", "2026-11-26", "2026-12-25"],
+  "notes": {
+    "2026-04-03": "Good Friday: NYSE closed, Federal Reserve open -> not a Business Day",
+    "2026-07-03": "Independence Day observed by NYSE; Federal Reserve open (Saturday holiday rule) -> not a Business Day",
+    "2026-10-12": "Columbus Day: NYSE open, Federal Reserve closed -> not a Business Day",
+    "2026-11-11": "Veterans Day: NYSE open, Federal Reserve closed -> not a Business Day"
+  }
+}
